@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body{
+    max-width: 100%;
+    background-color: bisque;
+}
+.container-box{
+    width : 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: aqua;
+}
+.todoList{
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-repeat: round;
+    height: 550px;
+    background-color: bisque;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.yourJob{
+    border: none;
+    outline: 0;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: aliceblue;
+    color: black;
+    flex: 1;
+    margin-right: 12px;
+    border-radius: 30px;
+    max-width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnAdd{
+    height: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnArea{
+    display: flex;
 }
